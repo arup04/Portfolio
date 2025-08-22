@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arup Das | Portfolio</title>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="font-sans text-gray-900">
+
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+      <div class="text-2xl font-bold text-blue-600">Arup's Portfolio</div>
+      <nav>
+        <ul class="hidden md:flex space-x-6 font-medium">
+          <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+          <li><a href="#about" class="hover:text-blue-600">About</a></li>
+          <li><a href="#skills" class="hover:text-blue-600">Skills</a></li>
+          <li><a href="#projects" class="hover:text-blue-600">Projects</a></li>
+          <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+        </ul>
+        <!-- Hamburger -->
+        <div class="md:hidden flex flex-col gap-1 cursor-pointer">
+          <span class="w-6 h-0.5 bg-gray-700"></span>
+          <span class="w-6 h-0.5 bg-gray-700"></span>
+          <span class="w-6 h-0.5 bg-gray-700"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+<!-- Hero Section -->
+<section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-white to-blue-50 pt-20 relative overflow-hidden">
+  <div class="container mx-auto grid md:grid-cols-2 items-center gap-10 px-6">
+    
+    <!-- Left Text -->
+    <div class="flex flex-col items-center md:items-start text-center md:text-left max-w-2xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+        Hi, I'm <span class="text-blue-600">Arup Das</span>
+      </h1>
+      <h2 class="text-xl md:text-2xl font-semibold mt-4">Full Stack Developer</h2>
+      <p class="mt-2 text-blue-500 font-medium">Pursuing AI & Data Science</p>
+      <p class="mt-4 text-gray-600 max-w-md">
+        I build beautiful, functional websites and intelligent solutions that help businesses grow.
+      </p>
+      
+      <!-- Buttons -->
+      <div class="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
+        <a href="#projects" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition">View My Work</a>
+        <a href="#contact" class="bg-gray-200 px-6 py-3 rounded-lg hover:bg-gray-300 transition">Contact Me</a>
+      </div>
+      
+      <!-- Social Links -->
+      <div class="mt-8 flex space-x-6 text-2xl text-gray-600">
+        <a href="https://github.com/arup04" class="hover:text-blue-600"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/arup-das-ad04" class="hover:text-blue-600"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/arup46606" class="hover:text-blue-600"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+    
+    <!-- Right Image with Background Accent -->
+    <div class="relative flex justify-center">
+      <div class="absolute w-80 h-80 bg-blue-100 rounded-full blur-3xl -z-10"></div>
+      <img src="WhatsApp Image 2024-12-28 at 15.08.04_77199e8c.jpg" 
+           alt="Arup Das" 
+           class="w-96 h-96 rounded-full object-cover border-4 border-blue-600 shadow-lg">
+    </div>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gradient-to-b from-white to-blue-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Image -->
+        <div class="flex justify-center">
+          <div class="w-96 h-96 rounded-full overflow-hidden border-4 border-blue-600 shadow-xl">
+            <img src="WhatsApp Image 2025-05-28 at 17.02.52_69f46f72.jpg" alt="Arup Das" class="w-full h-full object-cover">
+          </div>
+        </div>
+        <!-- Text -->
+        <div>
+          <p class="text-lg text-gray-700 mb-6">
+            Hi, I'm <span class="font-bold text-blue-600">Arup</span>, a 
+            <span class="font-bold">B.Tech AI & Data Science</span> student specializing in Transportation & Logistics.
+            I love building intelligent, data-driven solutions that solve real-world problems.
+          </p>
+          <h3 class="text-xl font-semibold mb-2">My Journey</h3>
+          <ul class="list-disc list-inside text-gray-600 mb-6">
+            <li>pursuing B.Tech (AI & Data Science)</li>
+            <li>Class 12: Kendriya Vidyalaya Tinsukia</li>
+            <li>Class 10: A-New High School, Tinsukia</li>
+          </ul>
+
+           <h3 class="text-xl font-semibold mb-2">My Home Town</h3>
+          <ul class="list-disc list-inside text-gray-600 mb-6">
+            <li>I'm from Tinsukia, Assam</li>
+          </ul>
+
+           <h3 class="text-xl font-semibold mb-2">My Hobbies</h3>
+          <ul class="list-disc list-inside text-gray-600 mb-6">
+            <li>I love Travelling to mountains and hilly regions </li>
+             <li>I love learning new tech things</li>
+          </ul>
+
+          <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">📄 Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">My Skills</h2>
+      <div class="grid md:grid-cols-2 gap-10">
+        <!-- Frontend -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Frontend</h3>
+          <div class="space-y-4">
+            <div>
+              <p>HTML</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 95%"></div>
+              </div>
+            </div>
+            <div>
+              <p>CSS</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div>
+              <p>JavaScript</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div>
+              <p>React</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Backend</h3>
+          <div class="space-y-4">
+            <div>
+              <p>Node.js</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 75%"></div>
+              </div>
+            </div>
+            <div>
+              <p>Python</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 70%"></div>
+              </div>
+            </div>
+            <div>
+              <p>SQL</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+            <div>
+              <p>MongoDB</p>
+              <div class="bg-gray-200 h-3 rounded-full">
+                <div class="bg-blue-600 h-3 rounded-full" style="width: 65%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">My Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow hover:shadow-xl overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <div class="p-4">
+            <h3 class="font-bold">E-commerce Website</h3>
+            <p class="text-gray-600">Responsive platform built with React & Node.js.</p>
+            <div class="mt-3 space-x-2">
+              <a href="#" class="bg-blue-600 text-white px-3 py-1 rounded">Live Demo</a>
+              <a href="#" class="bg-gray-200 px-3 py-1 rounded">Code</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow hover:shadow-xl overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <div class="p-4">
+            <h3 class="font-bold">Task Management App</h3>
+            <p class="text-gray-600">Productivity app with drag-and-drop tasks.</p>
+            <div class="mt-3 space-x-2">
+              <a href="#" class="bg-blue-600 text-white px-3 py-1 rounded">Live Demo</a>
+              <a href="#" class="bg-gray-200 px-3 py-1 rounded">Code</a>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white rounded-lg shadow hover:shadow-xl overflow-hidden">
+          <img src="https://via.placeholder.com/400x250" alt="Project 3">
+          <div class="p-4">
+            <h3 class="font-bold">Weather Dashboard</h3>
+            <p class="text-gray-600">Real-time weather with 5-day forecast API.</p>
+            <div class="mt-3 space-x-2">
+              <a href="#" class="bg-blue-600 text-white px-3 py-1 rounded">Live Demo</a>
+              <a href="#" class="bg-gray-200 px-3 py-1 rounded">Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Get In Touch</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Info -->
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+          <p class="mb-4 text-gray-600">Feel free to reach out for any opportunities or collaborations.</p>
+          <div class="space-y-3 text-gray-700">
+            <p><i class="fas fa-envelope mr-2 text-blue-600"></i> arup46606@gmail.com</p>
+            <p><i class="fas fa-phone mr-2 text-blue-600"></i> +91 XXXXXXXXXX</p>
+            <p><i class="fas fa-map-marker-alt mr-2 text-blue-600"></i> Vadodara, Gujarat</p>
+          </div>
+          <div class="mt-4 flex space-x-4">
+            <a href="https://github.com/arup04"><i class="fab fa-github text-2xl hover:text-blue-600"></i></a>
+            <a href="https://www.linkedin.com/in/arup-das-ad04"><i class="fab fa-linkedin text-2xl hover:text-blue-600"></i></a>
+            <a href="https://x.com/arup46606"><i class="fab fa-twitter text-2xl hover:text-blue-600"></i></a>
+            <a href="https://www.instagram.com/itsarup04/"><i class="fab fa-instagram text-2xl hover:text-blue-600"></i></a>
+          </div>
+        </div>
+        <!-- Form -->
+        <form class="space-y-4">
+          <input type="text" placeholder="Your Name" class="w-full border px-4 py-3 rounded-lg focus:outline-blue-600" required>
+          <input type="email" placeholder="Your Email" class="w-full border px-4 py-3 rounded-lg focus:outline-blue-600" required>
+          <input type="text" placeholder="Subject" class="w-full border px-4 py-3 rounded-lg focus:outline-blue-600">
+          <textarea rows="5" placeholder="Your Message" class="w-full border px-4 py-3 rounded-lg focus:outline-blue-600" required></textarea>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center py-6">
+    <p>&copy; 2025 Arup. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
